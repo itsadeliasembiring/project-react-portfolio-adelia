@@ -6,20 +6,23 @@ export default function About() {
         <>
             {/* About */}
             <div className="about" id="about">
-                {/* About-title */}
-                <div className="about-title">
-                    <h2>About me</h2>
-                </div>
                 {/* About-content */}
-                <div className="about-content">
+                <div className="about-content-introduction">
                     {/* Foto */}
-                    <img src={foto2} alt="fotoadelia" className="foto2"/>
+                    <img src={foto2} alt="fotoadelia" className="foto2" data-aos="fade-right"/>
                     {/* Deskripsi */}
                     <div className="about-description">
-                        <h2>I'm Adelia</h2>
-                        <p>Hello! My name is Adelia.<br/>I'm a student of vocational high school majoring in software engineering.<br/>I have interested in front end website and artificial intelligence. </p>
+                        <p className='name' data-aos="fade-down">Hello! My name is <b>Adelia</b></p>
+                        <p data-aos="fade-up">Hi! I'm Adelia from Bekasi. I'm a junior front-end developer and studies at a vocational highschool majoring in Software Engineering. I am currently undergoing an internship program <br/>at the Brilyan Trimatra Utama Company.</p>
+                        <br/>
+                        <p data-aos="fade-up">I have interested in front-end website and artificial intelligence.<br/>I hope i can create many project and show to you in this portfolio.<br/>I will upgrade this portfolio, stay tune my new project!</p>
                     </div>
                 </div>
+                {/* <div className='about-content-experience'>
+                    <div className='experience-title'>
+                        <p>My Experience</p>
+                    </div>
+                </div> */}
             </div>
         </>
     );

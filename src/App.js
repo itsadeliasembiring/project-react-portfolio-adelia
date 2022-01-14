@@ -6,21 +6,30 @@ import About from './component/About';
 import Project from './component/Project';
 import Skill from './component/Skill';
 import Contact from './component/Contact';
-import Connect from './component/Connect';
-import Footer from './component/Footer';
+
+// import Footer from './component/Footer';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
 
 function App() {
   return (
-    <div className='App'>
-      <Navbar />
-      <Home />
-      <About />
-      <Project />
-      <Skill />
-      <Contact />
-      <Connect />
-      <Footer />
-    </div>
+    <Router>
+      <div className='App'>
+        <Navbar />
+        <Switch>
+          <Route exact path="/" component={Home}/>
+          <Route path="/about" component={About}/>
+          <Route path="/project" component={Project}/>
+          <Route path="/skill" component={Skill}/>
+          <Route path="/contact" component={Contact}/>
+        </Switch>
+
+        {/* <Footer /> */}
+      </div>
+    </Router>
   );
 }
 

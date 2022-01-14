@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom';
 import logo from '../img/logo.gif'
 
 export default function Navbar() {
@@ -8,17 +9,17 @@ export default function Navbar() {
             <div className="header">
                 {/* Logo */}
                 <div className="logo">
-                    <a href="#">
+                    <Link to="#">
                         <img src={logo} alt="logo"/>
-                    </a>
+                    </Link>
                 </div>
                 {/*  Navbar */}
                 <div className="navbar">
-                        <a href="#">Home</a>
-                        <a href="#about">About</a>
-                        <a href="#project">Project</a>
-                        <a href="#skill">Skill</a>
-                        <a href="#contact">Contact</a>
+                        <Link to="/">Home</Link>
+                        <Link to="/about">About</Link>
+                        <Link to="/project">Project</Link>
+                        <Link to="/skill">Skill</Link>
+                        <Link to="/contact">Contact</Link>
                 </div>
             </div>
         </>
