@@ -1,3 +1,4 @@
+// Import
 import React from 'react'
 import footer from '../img/footer.png'
 
@@ -34,6 +35,8 @@ export default function Contact() {
                 <a href="https://github.com/itsadeliasembiring?tab=repositories" className="home-contact-icon"  target="_blank"><i className="uil uil-github-alt"></i></a>
                 <a href="https://www.instagram.com/adelialistic/" className="home-contact-icon"  target="_blank"><i className="uil uil-instagram"></i></a>    
             </div>
+
+            {/* Footer */}
             <div className="footer">
                 <img src={footer} alt="footer"/>
             </div>

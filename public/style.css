@@ -51,17 +51,14 @@ table {
 /* CSS */
 /*===== Header =====*/
 .header {
-	position: relative;
 	display: flex;
+	position: relative;
 	justify-content: space-between;
-	/* border-bottom: 4px #969393 solid; */
 	width: 100%;
-	background-color: transparent;
-	/* -webkit-filter: blur(3px);  */
-	/* opacity: 0.4; */
 	min-height: 90px;
 	top: 0;
 	right: 0;
+	background-color: transparent;
 }
 /*Logo*/
 .logo img {
@@ -71,7 +68,6 @@ table {
 	padding-top: 14px;
 	margin-left: 50px;
 }
-
 /* Navbar */
 .navbar {
 	margin-right: 5px;
@@ -83,9 +79,9 @@ table {
 	padding: 12px 13px;
 	font-family: 'Nunito';
 	font-size: 23px;
+	color: #000;
 	text-decoration: none;
 	text-align: center;
-	color: #000;
 }
 /*Navbar ketika akan di klik*/
 .navbar a:hover {
@@ -163,7 +159,6 @@ table {
 .about {
 	margin-top: 55px;
 }
-
 /* About-content */
 .about-content-introduction {
 	display: flex;
@@ -195,15 +190,17 @@ table {
 	padding-right: 123px;
 }
 
+
 /*===== Project =====*/
 .project-title {
-	font-family: 'Nunito';
-	font-size: 40px;
 	margin-top: 35px;
 	margin-bottom: 35px;
-	text-align: center;
+	font-family: 'Nunito';
+	font-size: 40px;
 	font-weight: bold;
+	text-align: center;
 }
+/* card project*/
 .card {
 	display: flex;
 	margin-left: 115px;
@@ -216,14 +213,15 @@ table {
 	height: 410px;
 	margin-right: 17px;
 }
+/* foto project */
 .photo-project {
 	width: 100%;
 	height: 200px;
 }
 .photo-project img {
-	object-fit: cover;
 	width: 100%;
 	height: 200px;
+	object-fit: cover;
 	filter: contrast(70%);
 }
 .photo-project img:hover {
@@ -232,6 +230,7 @@ table {
 .card-title, .card-content, .card-button {
 	padding-left: 13px;
 }
+/* title project */
 .card-title p {
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -239,11 +238,13 @@ table {
 	font-weight: bold;
 	font-family: 'Nunito';
 }
+/* deskripsi project */
 .card-content p {
-	font-family: 'Poppins';
 	margin-bottom: 10px;
+	font-family: 'Poppins';
 	line-height: 23px;
 }
+/* button visit */
 .card-button button{
 	width: 300px;
 	height: 30px;
@@ -253,9 +254,10 @@ table {
 	font-family: 'Poppins';
 	font-size: 15px;
 }
+/* button visit ketika di hover */
 .card-button button:hover {
-	border: #b40000 solid;
 	background-color: #fff;
+	border: #b40000 solid;
 	color: #000;
 }
 
@@ -264,32 +266,31 @@ table {
 	margin-left: 480px;
 }
 .skill-title {
-	font-family: 'Nunito';
-	font-size: 40px;
 	margin-top: 35px;
 	margin-bottom: 25px;
 	text-align: center;
-	font-weight: bold;
+	font-weight: bold;	
+	font-family: 'Nunito';
+	font-size: 40px;
 }
 /* Icon */
 .icon-skill {
 	font-family: 'Poppins', sans-serif;
 }
 .icon-skill i {
-	font-size: 30px;
 	margin-right: 5px;
+	font-size: 30px;
 }
 .icon-skill p {
 	font-size: 20px;
 }
 .skill-html, .skill-css, .skill-javascript, .skill-canva{
 	display: flex;
-	align-items: center;
 	margin-top: 25px;
-	font-weight: bold;
 	text-decoration: underline #b40000;
 	text-underline-position: under;
-	
+	align-items: center;
+	font-weight: bold;
 }
 /* Warna icon */
 .skill-html i {
@@ -305,20 +306,19 @@ table {
 .skill-progress {
 	background-color: #fff;
 	width: 300px;
+	height: 26px;
+	margin-top: 9px;
 	border: #000 solid;
 	border-radius: 15px;
-	margin-top: 9px;
-	height: 26px;
 }
 .skill {
-	/* background-color: rgb(104, 104, 104); */
 	background-color: #b40000;
-	color: white;
+	height: 20px;
 	padding: 1%;
+	color: white;
 	text-align: right;
 	font-size: 14px;
 	border-radius: 15px;
-	height: 20px;
 }
 @keyframes load {
 	0% { width: 0; }
@@ -343,48 +343,48 @@ table {
 
 /*===== Contact =====*/
 .contact-content {
-	font-family: 'Poppins', sans-serif;
 	width: 500px;
 	height: 450px;
-	border: #000 solid;
-	border-radius: 9px;
 	margin: 0 auto;
 	padding-left: 20px;
+	border: #000 solid;
+	border-radius: 9px;
+	font-family: 'Poppins', sans-serif;
 	font-size: 20px;
 }
 .contact-content p {
-	text-decoration: underline #b40000;
-	text-underline-position: under;
 	margin-top: 25px;
 	margin-bottom: 15px;
+	text-decoration: underline #b40000;
+	text-underline-position: under;
 }
 /* form-input */
 .input-field {
-	border: #000 solid;
 	width: 461px;
 	height: 30px;
+	border: #000 solid;
 }
 /* form-textarea */
 .textarea-field {
 	height: 100px;
 }
 /* form-button */
-.btn {
-	border-radius: 2px;
+.btn {	
 	width: 130px;
 	height: 35px;
+	margin-top: 18px;
 	font-size: 12px;
 	font-family: 'Poppins', sans-serif;
 	font-weight: bold;
-	margin-top: 18px;
 	cursor: pointer;
 	background-color: #b40000;
 	color: white;
+	border-radius: 2px;
 	border: none;
 }
 .btn:hover {
-	border: #b40000 solid;
 	background-color: #fff;
+	border: #b40000 solid;
 	color: #000;
 }
 
@@ -397,12 +397,12 @@ table {
 
 }
 .contact-title {
-	font-family: 'Nunito';
-	font-size: 40px;
 	margin-top: 35px;
 	margin-bottom: 25px;
-	text-align: center;
+	font-family: 'Nunito';
+	font-size: 40px;
 	font-weight: bold;
+	text-align: center;
 }
 /* contact-icon */
 .contact-icon {

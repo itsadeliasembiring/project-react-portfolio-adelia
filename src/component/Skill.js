@@ -1,3 +1,4 @@
+// Import
 import React from 'react'
 
 export default function Skill() {
@@ -49,7 +50,6 @@ export default function Skill() {
                         <div className="skill-progress">
                             <div className="skill canva">90%</div>
                         </div>
-                        
                     </div>
                 </div>
             </div>

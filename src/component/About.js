@@ -18,11 +18,6 @@ export default function About() {
                         <p data-aos="fade-up">I have interested in front-end website and artificial intelligence.<br/>I hope i can create many project and show to you in this portfolio.<br/>I will upgrade this portfolio, stay tune my new project!</p>
                     </div>
                 </div>
-                {/* <div className='about-content-experience'>
-                    <div className='experience-title'>
-                        <p>My Experience</p>
-                    </div>
-                </div> */}
             </div>
         </>
     );
