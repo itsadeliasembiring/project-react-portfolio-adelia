@@ -1,0 +1,433 @@
+/* CSS RESET */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS */
+/*===== Header =====*/
+.header {
+	display: flex;
+	position: relative;
+	justify-content: space-between;
+	width: 100%;
+	min-height: 90px;
+	top: 0;
+	right: 0;
+	background-color: transparent;
+}
+/*Logo*/
+.logo img {
+	width: 250px;
+	height: 70px;
+	float: left;
+	padding-top: 14px;
+	margin-left: 50px;
+}
+/* Navbar */
+.navbar {
+	margin-right: 5px;
+}
+.navbar a {
+	display: inline-block;
+	/*margin: top right bottom left*/
+	margin: 26px 60px 17px -11px;
+	padding: 12px 13px;
+	font-family: 'Nunito';
+	font-size: 23px;
+	color: #000;
+	text-decoration: none;
+	text-align: center;
+}
+/*Navbar ketika akan di klik*/
+.navbar a:hover {
+	color: #000;
+	cursor: pointer;
+	padding: 1px 13px;
+	text-decoration: underline #b40000;
+	text-underline-position: under;
+}
+
+/*===== HOME =====*/
+.home {
+	display: flex;
+	margin-top: -10px;
+	font-family: 'Poppins', sans-serif;
+}
+/* home-left */
+.home-left {
+	margin-left: 61px;
+	margin-right: 165px;
+	padding-top: 50px;
+}
+/* home-title */
+.home-title {
+	margin-bottom: 60px;
+}
+.home-title p {
+	margin-top: 38px;
+	font-size: 50px;
+	font-weight: 900;
+}
+.home-title b {
+	color: #b40000;
+}
+/* Button Download CV */
+.download {
+	padding-top: 7px;
+}
+.download .button {
+	background-color: #b40000;
+	color: #fff;
+	padding: 12px 40px;
+	border-radius: 8px;
+}
+.download .button:hover {
+	background-color: #fff;
+	border: #b40000 solid;
+	color: #b40000;
+}
+.download a {
+	text-decoration: none;
+}
+/* Home-contact */
+.home-contact {
+	margin-top: 60px;
+}
+.home-contact a {
+	color: #000;
+	font-size: 30px;
+	margin-right: 10px;
+}
+.home-contact a:hover {
+	color: #b40000;
+}
+/* Home-right */
+/* foto */
+.foto img {
+	width: 480px;
+	height: 480px;
+	margin-top: 8px;
+}
+
+
+/*===== About =====*/
+.about {
+	margin-top: 55px;
+}
+/* About-content */
+.about-content-introduction {
+	display: flex;
+}
+.about-content-introduction .name{
+	margin-bottom: 25px;
+	font-family: 'Nunito';
+	font-size: 50px;
+	font-weight: 900;
+}
+.about-content-introduction .name b {
+	color: #b40000;
+}
+.about-content-introduction p {
+	font-family: 'Poppins';
+	line-height: 35px;
+}
+/* foto */
+.foto2{
+	margin-left: 84px;
+	margin-right: 44px;
+	width: 350px;
+	height: 350px;
+}
+/* About-description*/
+.about-description {
+	font-size: 20px;
+	padding-top: 17px;
+	padding-right: 123px;
+}
+
+
+/*===== Project =====*/
+.project-title {
+	margin-top: 35px;
+	margin-bottom: 35px;
+	font-family: 'Nunito';
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+}
+/* card project*/
+.card {
+	display: flex;
+	margin-left: 115px;
+	margin-bottom: 75px;;
+  }
+.card-item {
+	border: #000 solid;
+	border-radius: 4px;
+	width: 325px;
+	height: 410px;
+	margin-right: 17px;
+}
+/* foto project */
+.photo-project {
+	width: 100%;
+	height: 200px;
+}
+.photo-project img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	filter: contrast(70%);
+}
+.photo-project img:hover {
+	filter: contrast(100%);
+}
+.card-title, .card-content, .card-button {
+	padding-left: 13px;
+}
+/* title project */
+.card-title p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 23px;
+	font-weight: bold;
+	font-family: 'Nunito';
+}
+/* deskripsi project */
+.card-content p {
+	margin-bottom: 10px;
+	font-family: 'Poppins';
+	line-height: 23px;
+}
+/* button visit */
+.card-button button{
+	width: 300px;
+	height: 30px;
+	background-color: #b40000;
+	border: none;
+	color: #fff;
+	font-family: 'Poppins';
+	font-size: 15px;
+}
+/* button visit ketika di hover */
+.card-button button:hover {
+	background-color: #fff;
+	border: #b40000 solid;
+	color: #000;
+}
+
+/*===== Skill =====*/
+.myskill {
+	margin-left: 480px;
+}
+.skill-title {
+	margin-top: 35px;
+	margin-bottom: 25px;
+	text-align: center;
+	font-weight: bold;	
+	font-family: 'Nunito';
+	font-size: 40px;
+}
+/* Icon */
+.icon-skill {
+	font-family: 'Poppins', sans-serif;
+}
+.icon-skill i {
+	margin-right: 5px;
+	font-size: 30px;
+}
+.icon-skill p {
+	font-size: 20px;
+}
+.skill-html, .skill-css, .skill-javascript, .skill-canva{
+	display: flex;
+	margin-top: 25px;
+	text-decoration: underline #b40000;
+	text-underline-position: under;
+	align-items: center;
+	font-weight: bold;
+}
+/* Warna icon */
+.skill-html i {
+	color: #FF5733;
+}
+.skill-css i {
+	color: #1a5ee6;
+}
+.skill-javascript i {
+	color: #ffd000;
+}
+/* skill-progress */
+.skill-progress {
+	background-color: #fff;
+	width: 300px;
+	height: 26px;
+	margin-top: 9px;
+	border: #000 solid;
+	border-radius: 15px;
+}
+.skill {
+	background-color: #b40000;
+	height: 20px;
+	padding: 1%;
+	color: white;
+	text-align: right;
+	font-size: 14px;
+	border-radius: 15px;
+}
+@keyframes load {
+	0% { width: 0; }
+}
+.html, .css, .javascript, .canva {
+	animation: load 3s normal forwards;
+	
+}
+/* Persentase-skill */
+.html {
+	width: 80%;
+}
+.css {
+	width: 70%;
+}
+.javascript {
+	width: 23%;
+}
+.canva {
+	width: 90%;
+}
+
+/*===== Contact =====*/
+.contact-content {
+	width: 500px;
+	height: 450px;
+	margin: 0 auto;
+	padding-left: 20px;
+	border: #000 solid;
+	border-radius: 9px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+}
+.contact-content p {
+	margin-top: 25px;
+	margin-bottom: 15px;
+	text-decoration: underline #b40000;
+	text-underline-position: under;
+}
+/* form-input */
+.input-field {
+	width: 461px;
+	height: 30px;
+	border: #000 solid;
+}
+/* form-textarea */
+.textarea-field {
+	height: 100px;
+}
+/* form-button */
+.btn {	
+	width: 130px;
+	height: 35px;
+	margin-top: 18px;
+	font-size: 12px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	cursor: pointer;
+	background-color: #b40000;
+	color: white;
+	border-radius: 2px;
+	border: none;
+}
+.btn:hover {
+	background-color: #fff;
+	border: #b40000 solid;
+	color: #000;
+}
+
+/*===== Connect =====*/
+.connect {
+	margin-top: 30px;
+	text-align: center;
+	font-size: 18px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.contact-title {
+	margin-top: 35px;
+	margin-bottom: 25px;
+	font-family: 'Nunito';
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+}
+/* contact-icon */
+.contact-icon {
+	display: flex;
+	margin-top: 20px;
+	margin-left: 530px;
+}
+.contact-icon a {
+	color: #000;
+	font-size: 50px;
+	padding-right: 15px;
+}
+.contact-icon a:hover {
+	color: #b40000;
+}
+
+/*===== Footer =====*/
+.footer {
+	background-color: #fff;
+	width: 100%;
+	height: 290px;
+	margin-top: 20px;
+}
+/* footer-foto */
+.footer img {
+	width: 100%;
+	align-items: center;
+}
