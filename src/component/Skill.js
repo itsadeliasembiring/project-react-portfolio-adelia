@@ -30,7 +30,7 @@ export default function Skill() {
                             <p>CSS</p>
                         </div>
                         <div className="skill-progress">
-                            <div className="skill css">70%</div>
+                            <div className="skill css">75%</div>
                         </div>
 
                         {/* Javascript */}
