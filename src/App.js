@@ -20,11 +20,11 @@ function App() {
       <div className='App'>
         <Navbar />
         <Switch>
-          <Route path="/project-react-portfolio-adelia/" exact component={Home}/>
-          <Route path="/project-react-portfolio-adelia/about" component={About}/>
-          <Route path="/project-react-portfolio-adelia/project" component={Project}/>
-          <Route path="/project-react-portfolio-adelia/skill" component={Skill}/>
-          <Route path="/project-react-portfolio-adelia/contact" component={Contact}/>
+          <Route path="/" exact component={Home}/>
+          <Route path="/about" component={About}/>
+          <Route path="/project" component={Project}/>
+          <Route path="/skill" component={Skill}/>
+          <Route path="/contact" component={Contact}/>
         </Switch>
 
         {/* <Footer /> */}

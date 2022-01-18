@@ -16,11 +16,11 @@ export default function Navbar() {
                 </div>
                 {/*  Navbar */}
                 <div className="navbar">
-                        <Link to="/project-react-portfolio-adelia/">Home</Link>
-                        <Link to="/project-react-portfolio-adelia/about">About</Link>
-                        <Link to="/project-react-portfolio-adelia/project">Project</Link>
-                        <Link to="/project-react-portfolio-adelia/skill">Skill</Link>
-                        <Link to="/project-react-portfolio-adelia/contact">Contact</Link>
+                        <Link to="/">Home</Link>
+                        <Link to="/about">About</Link>
+                        <Link to="/project">Project</Link>
+                        <Link to="/skill">Skill</Link>
+                        <Link to="/contact">Contact</Link>
                 </div>
             </div>
         </>
