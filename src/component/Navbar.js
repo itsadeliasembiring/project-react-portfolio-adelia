@@ -16,7 +16,7 @@ export default function Navbar() {
                 </div>
                 {/*  Navbar */}
                 <div className="navbar">
-                        <Link to="/">Home</Link>
+                        <Link to="/project-react-portfolio-adelia/">Home</Link>
                         <Link to="/about">About</Link>
                         <Link to="/project">Project</Link>
                         <Link to="/skill">Skill</Link>
