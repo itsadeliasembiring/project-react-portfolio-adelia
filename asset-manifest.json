@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/project-react-portfolio-adelia/static/js/main.1efa6366.js",
+    "main.js": "/project-react-portfolio-adelia/static/js/main.4543ca29.js",
     "static/media/project.png": "/project-react-portfolio-adelia/static/media/project.3064de801aa76339136a.png",
     "static/media/foto.png": "/project-react-portfolio-adelia/static/media/foto.beb7e720d488ec2369e2.png",
     "static/media/foto2.png": "/project-react-portfolio-adelia/static/media/foto2.01e9865ccdbd489bbd5f.png",
     "static/media/footer.png": "/project-react-portfolio-adelia/static/media/footer.4c3dffe14a5206f38c5e.png",
     "static/media/soon.png": "/project-react-portfolio-adelia/static/media/soon.17148c1ec4ece69aebba.png",
     "index.html": "/project-react-portfolio-adelia/index.html",
-    "main.1efa6366.js.map": "/project-react-portfolio-adelia/static/js/main.1efa6366.js.map"
+    "main.4543ca29.js.map": "/project-react-portfolio-adelia/static/js/main.4543ca29.js.map"
   },
   "entrypoints": [
-    "static/js/main.1efa6366.js"
+    "static/js/main.4543ca29.js"
   ]
 }
